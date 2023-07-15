@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Cloud Developer'));
+app.get('/', (req, res) => res.send('Full Pipeline Test'));
 app.get('/login', (req, res) => res.send('Provide username and password'));
 
 app.listen(port);
